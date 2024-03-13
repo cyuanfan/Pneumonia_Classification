@@ -13,7 +13,19 @@ This project uses data from the RSNA Pneumonia Detection Challenge.
 
 # Model Weights
 
+The classifier uses the ResNet-18 architecture, with only the first convolutional layer and the fully connected layer replaced to match the input channel size and the output classes.
+
 [Weights](https://drive.google.com/drive/folders/1FHdNSTZTLcBEAVFpqpE6twyqWiuTvJGo?usp=drive_link)
+
+# Results
+
+Validation Accuracy: 0.817
+
+Validation Precision: 0.570
+
+Validation Recall: 0.775
+
+![image](https://github.com/cyuanfan/Pneumonia_Classification/blob/master/Confusion%20Matrix.png)
 
 # Packages Install
 In order to avoid package version conflicts, I suggest using Anaconda to create a virtual environment for this project.
